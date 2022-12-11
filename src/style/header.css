@@ -1,0 +1,23 @@
+header{
+    background-color: white;
+    color: green;
+}
+header a{
+    text-decoration: none;
+    color: green;
+    font-family: "Crimson Text";
+    font-size: 15px;
+    font-weight: 900;
+}
+header a:hover{
+    color:lightgreen;
+}
+
+header li{
+    list-style: none;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
