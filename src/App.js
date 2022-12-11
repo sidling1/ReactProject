@@ -13,19 +13,7 @@ import Support from './pages/Support';
 
 function App() {
 return (
-	<BrowserRouter>
 	<Navbar />
-	<Routes>
-		<Route path='/home' element={<Home/>} />
-		<Route path='/aboutus' element={<Aboutus/>} />
-		<Route path='/products' element={<Products/>} />
-		<Route path='/solutions' element={<Solutions/>} />
-		<Route path='/blogs' element={<Blogs/>} />
-		<Route path='/support' element={<Support/>} />
-		<Route path='/careers' element={<Careers/>} />
-    <Route path='/leadership' element={<Leadership/>}/>
-  </Routes>
-	</BrowserRouter>
 );
 }
 
