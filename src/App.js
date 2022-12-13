@@ -16,15 +16,15 @@ return (
 	<BrowserRouter>
 	<Navbar />
 	<Routes>
-		<Route path='/home' element={<Home/>} />
-		<Route path='/aboutus' element={<Aboutus/>} />
-		<Route path='/products' element={<Products/>} />
-		<Route path='/solutions' element={<Solutions/>} />
-		<Route path='/blogs' element={<Blogs/>} />
-		<Route path='/support' element={<Support/>} />
-		<Route path='/careers' element={<Careers/>} />
-    <Route path='/leadership' element={<Leadership/>}/>
-  </Routes>
+		<Route path='/Home' element={<Home/>} />
+		<Route path='/Aboutus' element={<Aboutus/>} />
+		<Route path='/Products' element={<Products/>} />
+		<Route path='/Solutions' element={<Solutions/>} />
+		<Route path='/Blogs' element={<Blogs/>} />
+		<Route path='/Support' element={<Support/>} />
+		<Route path='/Careers' element={<Careers/>} />
+    	<Route path='/Leadership' element={<Leadership/>}/>
+	</Routes>
 	</BrowserRouter>
 );
 }
